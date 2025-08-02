@@ -20,7 +20,7 @@ export default function Result() {
     } else {
       router.push('/quiz');
     }
-  }, []);
+  }, [router]);
 
   const handleLogout = () => {
     localStorage.clear();
