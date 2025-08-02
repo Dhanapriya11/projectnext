@@ -34,7 +34,7 @@ export default function Quiz() {
   useEffect(() => {
     if (status === 'loading') return; // Wait for session to load
     if (!session) router.push('/'); // Redirect to home/login if not authenticated
-  }, [session, status]);
+  }, [session, status,router]);
 
   const handleOptionChange = (index, option) => {
     setAnswers({ ...answers, [index]: option });
