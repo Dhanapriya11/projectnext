@@ -56,7 +56,7 @@ export default function LoginPage() {
       </button>
 
       <p style={styles.signupText}>
-        Don't have an account? <a href="/signup">Sign up here</a>
+        Don&apos;t have an account? <a href="/signup">Sign up here</a>
       </p>
     </div>
   );
